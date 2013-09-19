@@ -3,6 +3,13 @@ pastebinfs
 
 Fuse module for talking to Pastebin.com, implemented in Perl.
 
+TODO
+====
+
+Pastebin API doesn't properly support modifying files or changing things like 
+the title. That's a bummer. These need to be implemented as full-class calls to 
+the web interface, which is eminently doable, if evil. I'll get to it.
+
 LICENSE
 =======
 Copyright 2013, Patrick Bogen
